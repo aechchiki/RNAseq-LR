@@ -1,4 +1,14 @@
-## need: genome, annotation and subset only protein-coding genes on selected chromosomes (female)
+#!/bin/bash
+
+#SBATCH --mail-user = amina.echchiki@unil.ch
+#SBATCH --mail-type = ALL
+#SBATCH --job-name = master_test
+#SBATCH --partition = normal
+
+## modules load
+module add Bioinformatics/Software/vital-it
+module add UHTS/Analysis/samtools/1.8
+module add UHTS/Assembler/cufflinks/2.2.1
 
 ## location
 cd A_input/ref
