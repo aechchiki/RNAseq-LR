@@ -18,3 +18,5 @@ mkdir -p A_input/raw A_input/ref A_input/wrk
 ## change execution params (at root)
 chmod +x -R .
 
+## execute scripts
+./B_analysis/getref.sh
